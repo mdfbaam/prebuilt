@@ -37,6 +37,12 @@ If you would like to add a new dependency or tweak existing dependencies, use th
       https://mirrors.ocf.berkeley.edu/qt/official_releases/jom/jom_1_1_3.zip - copy and rename the copy to jom_1_1_3-5b158ead.zip, both copies are needed.
       https://www.python.org/ftp/python/3.10.7/python-3.10.7-embed-amd64.zip
       ```
+    - When downloading externally, the hash of the file might change due to firewall restrictions. If this occurs, try
+      downloading directly via CURL:
+      ```
+      > curl -O [url]
+      ```
+      If you still have issues, you might need to download on another computer external to the firewall-ed network.
     
 5. Export a new zip file with the built files:
     - Run:
@@ -83,7 +89,13 @@ Since we have an internal fork of VCPKG, you must update the fork to update the 
       https://mirrors.ocf.berkeley.edu/qt/official_releases/jom/jom_1_1_3.zip - copy and rename the copy to jom_1_1_3-5b158ead.zip, both copies are needed.
       https://www.python.org/ftp/python/3.10.7/python-3.10.7-embed-amd64.zip
       ```
-      
+    - When downloading externally, the hash of the file might change due to firewall restrictions. If this occurs, try
+      downloading directly via CURL:
+      ```
+      > curl -O [url]
+      ```
+      If you still have issues, you might need to download on another computer external to the firewall-ed network.
+          
 5. Export a new zip file with the built files:
     - Run:
       ```
